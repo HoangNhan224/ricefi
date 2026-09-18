@@ -1,0 +1,25 @@
+/* ============================================================
+   RiceFi Design System — token nguồn (Section 3)
+   Tên màu đặt theo chất liệu ĐBSCL, KHÔNG đặt primary/secondary.
+   Không thêm màu ngoài bảng này khi build UI.
+   ============================================================ */
+:root {
+    /* Màu — Section 3.1 */
+    --paddy-900: #1b3a2b;
+    /* Text đậm nhất, nav active, nút chính nền sáng */
+    --paddy-500: #4f7a52;
+    /* Interactive chính, trạng thái VERIFIED */
+    --husk-100: #ede7d6;
+    /* Nền trang (rice husk) */
+    --clay-600: #8c5a34;
+    /* Accent vai trò Farmer */
+    --gold-500: #c99a3e;
+    /* CHỈ dùng cho con số tiền/token (RCC, USDC, giá) */
+    --water-600: #3f6672;
+    /* Lớp dữ liệu xác minh: confidence AI, vệ tinh, Buyer */
+
+    /* Font — Section 3.2 */
+    --font-display: 'Fraunces', serif;
+    --font-sans: 'Be Vietnam Pro', system-ui, sans-serif;
+    --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
